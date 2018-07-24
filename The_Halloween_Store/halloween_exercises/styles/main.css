@@ -1,0 +1,92 @@
+{
+    font-family: sans-serif;
+}
+html
+{
+background-image: url("../images/bats.gif");
+background-repeat: repeat repeat;
+margin: 10px;
+}
+
+body
+{
+width: 800px; align-content: center;
+background-color: white;
+margin: auto auto auto auto;
+padding-bottom: 4px;
+padding-top: 4px;
+padding-left: 4px;
+padding right: 4px;
+box-shadow: 7px 7px 7px 7px black;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+header
+{ background: linear-gradient(45deg, white, orange, orange, black);
+padding: 0px 0px 0px 0px;
+margin: 0px;
+width: 800px;}
+
+#content
+{width: 640px;
+float: right;
+background-color: white;
+}
+
+#mine
+{
+margin: 0 auto;
+width: 800px;
+}
+#sidebar
+{
+	width: 160px;
+	float: left;
+	background-color: white;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+h3{
+    font-size: 25px;
+}
+.word::first-letter{
+    font-size: 90px;
+}
+header img{
+    float: left;
+}
+header h2{
+    text-indent: 20px;
+    font-style: italic;
+}
+
+header h3{
+    text-indent: 20px
+}
+main ul li a{
+    color: orange;
+    margin: 10px;
+font-weight:bold;
+}
+
+a:hover{color:green}
+ #sidebar { width:160px;
+float: left; }
+
+
+footer{
+bottom: 0;
+clear: both;
+width: 800px;
+font-size: smaller;
+text-align: center;
+border-style: solid;
+border-color: transparent;
+background: linear-gradient(45deg, white, orange, orange, black);
+padding: 0px 0px 0px 0px;
+margin: 0px;
+}
